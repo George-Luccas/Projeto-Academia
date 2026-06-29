@@ -4,8 +4,8 @@ import { useVideoPlayer, VideoView } from 'expo-video';
 import { Ionicons } from '@expo/vector-icons';
 import { ThemedText } from './themed-text';
 
-// URL de vídeo de musculação de alta fidelidade
-const DEFAULT_VIDEO_URL = 'https://player.vimeo.com/external/371433846.sd.mp4?s=236da2f3c054e082103a74a161e1b80a221f151b&profile_id=139&oauth2_token_id=57447761';
+// URL de vídeo de musculação de alta fidelidade (Bend Health & Performance Gym)
+const DEFAULT_VIDEO_URL = 'https://player.vimeo.com/external/661046938.hd.mp4?s=04f94387e5b8f45f064312f406b0f3f9e3dc0d63&profile_id=174';
 
 export default function VideoSplashOverlay() {
   const [isVisible, setIsVisible] = useState(true);
